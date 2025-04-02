@@ -34,7 +34,7 @@ def findEncodings(images):
     return encodeList
 
 
-def markAttendance(name):
+ def markAttendance(name):
     with open('Attendance.csv', 'r+') as f:
         myDataList = f.readlines()
 
